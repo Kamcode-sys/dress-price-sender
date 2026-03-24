@@ -16,7 +16,7 @@ RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
 
 # Configuration
 TARGET_PRICE = 31
-PRODUCT_URL = "https://www.zara.com/ng/en/cut-out-lace-dress-p01067002.html?v1=495703199"
+PRODUCT_URL = "https://www.zara.com/es/en/cut-out-lace-dress-p01067002.html?v1=495703199&utm_campaign=productShare&utm_medium=mobile_sharing_iOS&utm_source=red_social_movil"
 
 # Chrome options for GitHub Actions (headless mode)
 chrome_options = Options()
