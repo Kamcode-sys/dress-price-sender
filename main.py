@@ -10,9 +10,9 @@ import smtplib
 import time
 
 # Email credentials from environment variables (GitHub Secrets)
-SENDER_EMAIL = os.environ.get()
-APP_PASSWORD = os.environ.get()
-RECEIVER_EMAIL = os.environ.get()
+SENDER_EMAIL = os.environ.get("SENDER_EMAIL")
+APP_PASSWORD = os.environ.get("APP_PASSWORD")
+RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
 
 # Configuration
 TARGET_PRICE = 31
