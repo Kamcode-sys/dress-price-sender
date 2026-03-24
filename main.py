@@ -17,7 +17,7 @@ APP_PASSWORD = os.environ.get("APP_PASSWORD")
 RECEIVER_EMAIL = os.environ.get("RECEIVER_EMAIL")
 
 # Configuration
-TARGET_PRICE = 26
+TARGET_PRICE = 31
 PRODUCT_URL = "https://www.zara.com/ng/en/cut-out-lace-dress-p01067002.html?v1=495703199"
 
 # Chrome options - make headless browser look more real
